@@ -46,7 +46,7 @@ class ScreenInteractiveDetectorPlugin: FlutterPlugin, MethodCallHandler {
     val keyguardManager: KeyguardManager =
       context.getSystemService(Context.KEYGUARD_SERVICE) as KeyguardManager
     if (keyguardManager.isKeyguardLocked)
-      return true
+      return false
 
     val powerManager: PowerManager = context.getSystemService(Context.POWER_SERVICE) as PowerManager
     return powerManager.isInteractive

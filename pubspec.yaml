@@ -1,6 +1,6 @@
 name: screen_interactive_detector
 description: Flutter Plugin to detect if device is in lock screen. Useful for determining whether app entered background due to locking screen or leaving app.
-version: 1.0.0
+version: 1.0.1
 homepage:
 
 environment:

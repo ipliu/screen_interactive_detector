@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'screen_interactive_detector'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Flutter Plugin to detect if device is in lock screen. Useful for determining whether app entered background due to locking screen or leaving app.'
   s.description      = <<-DESC
 Flutter Plugin to detect if device is in lock screen. Useful for determining whether app entered background due to locking screen or leaving app.
